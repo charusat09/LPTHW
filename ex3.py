@@ -1,7 +1,10 @@
 print("I will now count my chickens:")
 
 print("Hens", 25 + 30 / 6)
-print("Roosters", 100 - 25 * 3 % 4)
+
+# python 3 already do float. you can format like this as well
+roosters = 100 - 25 * 3 % 4
+print("Roosters", f"{roosters:.2f}")
 
 print("Now I will count the eggs:")
 
